@@ -49,9 +49,13 @@ pagination is not implemented visually.
 .. _browserify: http://browserify.org/
 
 
-#INSTALL AND RUN
+INSTALL AND RUN
+===============
 
 npm install coffee-script
+
 virtulaenv .virt -p python3
+
 python manage.py db upgrade
+
 python manage.py runserver
